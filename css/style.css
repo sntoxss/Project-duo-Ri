@@ -1,33 +1,37 @@
 *{
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
 }
-header{
-  background-color: bisque;
-  margin-bottom: 100px;
-  padding: 50px;
-}
-.title{
-  text-align: center;
-}
-body{
-  background-color: rgb(255, 255, 255);
-}
-.foto{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 15px;
-  
-}
-#fotoDoBaitola{
-  border-radius: 60%;
-  height: 9.375rem;
-  margin-left: 15px;
-}
-.titlefoto{
 
-  color: #070736;
-  padding-left: 15px;
+body{
+  margin: 0;
+  background-color: white;
+}
+
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(127, 17, 200);
+  height: 50px;
+  align-items: center;
+  box-shadow: 0px 0px 10px black;
+}
+.titleLogo{
+margin: 0 0 0 15px;
+font-size: 18px
+}
+.blockNav{
+  display: flex;
+  gap: 15px;
+  margin-right: 15px
+}
+.ttitem{
+  font-weight: 700;
+}
+.ttitem:hover{
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
 }
