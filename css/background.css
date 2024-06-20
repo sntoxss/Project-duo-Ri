@@ -3,5 +3,5 @@ body{
 }
 header{
 
-  background-color: rgb(127, 17, 200);
+  background-color: var(--color-primary)
 }
