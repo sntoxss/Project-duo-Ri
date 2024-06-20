@@ -42,7 +42,8 @@
 #titleBlog{
   height: 6rem;
   cursor: pointer;
-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin-top: 15px;
   
 }
 #titleBlog:hover{
