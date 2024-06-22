@@ -1,0 +1,7 @@
+body{
+  background-color: rgb(195, 168, 239);
+}
+header{
+
+  background-color: var(--color-primary)
+}

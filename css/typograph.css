@@ -1,0 +1,34 @@
+
+.logo>.titleLogo:hover{
+  color: #210321;
+}
+.titleLogo{
+  margin: 0 0 0 15px;
+  font-size: 18px
+  
+}
+.ttitem{
+  font-weight: 700;
+}
+.ttitem:hover{
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+#titleBlog{
+  font-size: 2.25rem;
+  display: flexbox;
+}
+#subTitleBio{
+  font-weight: 700;
+  font-size: 26px;
+}
+#textBlock{
+  display: inline-block;
+}
+#paragraphTextBlog{
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
