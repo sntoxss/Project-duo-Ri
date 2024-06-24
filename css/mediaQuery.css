@@ -1,0 +1,55 @@
+@media(max-width: 480px){
+  .on{
+    margin-right: 26px
+  }
+  .block{
+    flex-direction: column;
+    align-items: center;
+  }
+  .button__nav{
+    display: block;
+    padding: 10px 10%;
+    border: none;
+    background-color: var(--color-primary);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .button__nav:hover{
+    color: white;
+  }
+  header{
+    gap:15px
+  }
+  #buttonInsta:hover{
+    padding: 8px 12%;
+  }
+  #titleBlog{
+    display: none;
+  }
+  header{
+    z-index: 2;
+  }
+  ul{
+    position: relative;
+    left: -1000px;
+    pointer-events: none;
+    z-index: -10;
+  }
+  li{
+    pointer-events:all;
+  }
+  .ttitem{
+    margin-top: 26px;
+    left: 0;
+  }
+  ul{
+    margin-left: 10px;
+    padding: 0 20% 0 0;
+    transition: 1s ease;
+  }
+  li:hover{
+    color: var(--color-primary);
+  }
+  
+}

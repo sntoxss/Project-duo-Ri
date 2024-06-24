@@ -7,10 +7,10 @@
   font-size: 18px
   
 }
-.ttitem{
+ul li{
   font-weight: 700;
 }
-.ttitem:hover{
+ul li:hover{
   font-weight: 700;
   color: white;
   cursor: pointer;
@@ -21,7 +21,7 @@
 }
 #subTitleBio{
   font-weight: 700;
-  font-size: 26px;
+  font-size: clamp(0.9rem, 0.195rem + 2.821vw, 2rem)
 }
 #textBlock{
   display: inline-block;
@@ -31,4 +31,5 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
+  font-size: clamp(0.5rem, 0.179rem + 1.282vw, 1rem);
 }

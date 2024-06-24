@@ -9,7 +9,8 @@
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: black;
-  margin: 0
+  margin: 0;
+  list-style: none;
 }
 
 .header{
@@ -33,10 +34,14 @@
 }
 
 
-.blockNav{
+ul{
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 0.9375rem;
-  margin-right: 0.9375rem
+  margin-right: 0.9375rem;
+  align-items: center;
+
 }
 #tueIcon{
   height: 36px;
@@ -53,6 +58,7 @@
   margin-top: 0.9375rem;
   
 }
+
 #titleBlog:hover{
   filter: none;
 }
@@ -68,6 +74,7 @@
 .block{
   display: flex;
   flex-direction: row;
+  width: 87%;
   gap: 1rem;
   cursor:help;
   margin: 3.5rem 1.125rem;
@@ -83,14 +90,17 @@
   background-color:var(--color-secondary) ;
   border: solid 0.125rem var(--color-button);
   border-radius: 0.5rem;
-  padding: 0.625rem 15rem;
-  margin-left: 3.125rem;
+  padding: 10px 20%;
+  margin: 0 19%;
   font-size: 1rem;
   cursor:pointer;
-
+  font-size: clamp(0.2rem, -0.313rem + 2.051vw, 1rem);
 }
 #buttonInsta:hover{
   background-color:var(--color-primary) ;
   color: aliceblue;
-
+  font-size: clamp(0.5rem, 0.179rem + 1.282vw, 1rem);
+}
+.button__nav{
+  display: none;
 }
